@@ -1,0 +1,11 @@
+framework module SwizzleLocalization {
+  umbrella header "SwizzleLocalization.h"
+
+  export *
+  module * { export * }
+}
+
+module SwizzleLocalization.Swift {
+    header "SwizzleLocalization-Swift.h"
+    requires objc
+}
